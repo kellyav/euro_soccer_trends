@@ -1,5 +1,5 @@
 # euro_soccer_trends
-European Soccer Database analysis
+European Soccer Database analysis using PostgreSQL.
 
 ## Database
 
