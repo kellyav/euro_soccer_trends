@@ -28,3 +28,7 @@ to compare the differences in methods, that have the same output.
 - **rank** 
 
 What is the rank of matches based on number of goals scored, by season?
+
+- **avg_goals.sql** (match table)
+
+Uses nested subqueries to answer the question: How does each months total goals differ from the average monthly total goals scored?
