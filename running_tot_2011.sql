@@ -1,4 +1,6 @@
-/* calculate the running total of goals scored by the FC Utrecht when they were the home team during the 2011/2012 season. Do they score more goals at the end of the season as the home or away team? */
+/* calculate the running total of goals scored 
+by the FC Utrecht when they were the home team during the 2011/2012 season. 
+Do they score more goals at the end of the season as the home or away team? */
 
 SELECT 
 	date,
