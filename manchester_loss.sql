@@ -29,9 +29,9 @@ SELECT DISTINCT
     away.team_long_name AS away_team,
     m.home_goal, m.away_goal,
     RANK() OVER(ORDER BY ABS(home_goal - away_goal) DESC) AS match_rank
+FROM match AS m
 
 -- Join the CTEs onto the match table
-FROM match AS m
 INNER JOIN home ON m.id = home.id
 INNER JOIN away ON m.id = away.id
 WHERE m.season = '2014/2015'
