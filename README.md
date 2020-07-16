@@ -24,3 +24,7 @@ during the 2014/2015 English Premier League season.
 Explores three ways to get both the home and away team names into one final query result.
 Uses nested subqueries, correlated subqueries, and Common Table Expressions 
 to compare the differences in methods, that have the same output.
+
+- **rank** 
+
+What is the rank of matches based on number of goals scored, by season?
